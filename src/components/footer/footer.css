@@ -1,0 +1,11 @@
+.footer {
+    height: 100%;
+}
+
+.footer > h6 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+

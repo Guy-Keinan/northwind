@@ -1,0 +1,5 @@
+.heading > h2 {
+    color: darkblue;
+    font-style: italic;
+    text-shadow: 3px 3px 5px blue;
+}

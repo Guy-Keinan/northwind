@@ -1,0 +1,41 @@
+.products > table {
+    margin: auto;
+}
+
+.products > table, .products th, .products td {
+    border: 1px solid blue;
+}
+
+.products td:first-child {
+    text-align: left;
+    padding: 10px;
+}
+
+.products tr:nth-child(even) {
+    background-color: lawngreen;
+}
+
+.products tr:nth-child(odd) {
+    background-color: lightcoral;
+}
+
+.products thead > tr:first-child {
+    background-color: lightgray;
+}
+
+.products {
+    height: 90%;
+    overflow: auto;
+}
+
+.products > .preview {
+    position: fixed;
+    left: 20px;
+    bottom: 60px;
+}
+
+.products > .insert {
+    position: absolute;
+    top: 150px;
+    right: 30px;
+}

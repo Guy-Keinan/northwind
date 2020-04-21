@@ -1,0 +1,14 @@
+.insert > input, .insert > button {
+    font-size: x-large;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.insert > span {
+    color: red;
+    position: absolute;
+}
+
+.insert > button:disabled {
+    background-color: gray;
+}

@@ -1,0 +1,11 @@
+.menu > a {
+    color: blue;
+    margin: 30px;
+    display: block;
+}
+
+/* class for the active link: */
+.menu > .active {
+    color: magenta;
+    font-weight: bold;
+}
